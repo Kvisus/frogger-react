@@ -1,0 +1,31 @@
+.wrap {
+  width: fit-content;
+}
+.grid {
+  /* border: 1px solid black; */
+  display: flex;
+  /* grid-template: repeat(8, 1fr) / repeat(8, 1fr); */
+  /* height: calc(600px + 2 px); */
+  /* aspect-ratio: 1 / 1; */
+  flex-wrap: wrap;
+}
+
+.cell {
+  border: 1px solid black;
+  width: calc(600px / 8);
+  /* height: calc(100% / 64); */
+  background-color: blue;
+  aspect-ratio: 1 / 1;
+}
+
+.frog {
+  background-color: green !important;
+}
+
+.obstacle {
+  background-color: burlywood;
+}
+
+.finish {
+  background-color: red;
+}
